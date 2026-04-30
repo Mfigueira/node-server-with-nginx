@@ -1,12 +1,13 @@
 {
-  "name": "app",
+  "name": "my-node-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "My Node App",
   "main": "app.js",
   "scripts": {
+    "dev": "node app.js",
     "start": "pm2 start app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "manu",
   "license": "ISC"
 }

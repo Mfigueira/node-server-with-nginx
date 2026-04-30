@@ -1,10 +1,11 @@
 const http = require("http");
-
 const PORT = 3000;
 
-http.createServer(function (req, res) {
-  res.write("On my way to creating a custom Node App");
-  res.end();
-}).listen(PORT);
+http
+  .createServer(function (req, res) {
+    res.write("🚧 Node.js Server under construction 🚧");
+    res.end();
+  })
+  .listen(PORT);
 
-console.log("Server started on port 3000");
+console.log(`Server started on port ${PORT}`);
